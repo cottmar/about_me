@@ -6,5 +6,28 @@ body {
 }
 
 img {
-  width: 200px;
+  width: 250px;
+}
+
+header {
+    font-family: cursive;
+    color: rgb(95, 10, 10);
+    font-size: 1.5em;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em;
+}
+
+ul {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(95, 10, 10); 
+  font-size: .5em; 
+}
+
+ol {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(95, 10, 10);
+  font-size: .5em;
 }
