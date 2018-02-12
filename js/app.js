@@ -118,7 +118,7 @@ function question6 () {
 
 question6();
 
-var caraFaveFoods = ['crab rangoon', 'chocolate chip cookies', 'cheesy garlic biscuits'];
+var caraFaveFoods = ['crab rangoon', 'chocolate chip cookie', 'cheesy garlic biscuits'];
 var numberOfGuesses = 6;
 var flag = true;
 
@@ -148,4 +148,4 @@ function question7 () {
 
 question7();
 
-alert('hey, you answered ' + correctAnswers + ' out of 7 possible right.');
+alert('Hey, you answered ' + correctAnswers + ' out of 7 possible right.');
