@@ -3,12 +3,12 @@
 var correctAnswers = 0;
 
 var userName = prompt('Hi! Glad you are here! What is your name?');
-console.log('User was asked their name and responded ' + userName + '.');
+console.log(userName + ' was asked their name and responded ' + userName + '.');
 
 alert('Hi, ' + userName + ', glad you are here! I am going to ask you a few questions about me. Please answer with y/n or yes/no.');
 
 var answer1 = prompt('Do you think I have pets?').toLowerCase().trim();
-console.log('User was asked if they thought I had pets and answered with ' + answer1 + '.');
+console.log(userName + ' was asked if they thought I had pets and answered with ' + answer1 + '.');
 
 function question1 () {
 
@@ -25,7 +25,7 @@ function question1 () {
 question1();
 
 var answer2 = prompt('I bet you can\'t guess my dogs\' names, ' + userName + '. Tell me, do you think I have a dog named after a Michael Jackson song, and a dog named after another animal?').toLowerCase().trim();
-console.log('User was asked if they thought my dogs were named after a Michael Jackson song and another animal and responded with ' + answer2 + '.');
+console.log(userName + ' was asked if they thought my dogs were named after a Michael Jackson song and another animal and responded with ' + answer2 + '.');
 
 function question2 () {
 
@@ -42,7 +42,7 @@ function question2 () {
 question2();
 
 var answer3 = prompt('What dog parent would I be if I had no nicknames for my dogs, ' + userName + '? Do you think that I have given each dog a full first and middle name?').toLowerCase().trim();
-console.log('User was asked if they thought my dogs had full names and responded with ' + answer3 + '.');
+console.log(userName + ' was asked if they thought my dogs had full names and responded with ' + answer3 + '.');
 
 function question3 () {
 
@@ -59,7 +59,7 @@ function question3 () {
 question3();
 
 var answer4 = prompt('Now that we\'ve established I am a Crazy Dog Lady, let\'s move on! ' + userName + ' do you think I have siblings?').toLowerCase().trim();
-console.log('User was asked if they thought I had siblings and responded with ' + answer4 + '.');
+console.log(userName + ' was asked if they thought I had siblings and responded with ' + answer4 + '.');
 
 function question4 () {
 
@@ -76,7 +76,7 @@ function question4 () {
 question4();
 
 var answer5 = prompt('This has been fun! One last question, ' + userName + '. Let\'s get a little more personal. Question: do you think I have ever had a cavity?').toLowerCase().trim();
-console.log('User was asked if they thought I have ever had a cavity and responded with ' + answer5 + '.');
+console.log(userName + ' was asked if they thought I have ever had a cavity and responded with ' + answer5 + '.');
 
 function question5 () {
 
@@ -126,7 +126,7 @@ function question7 () {
 
   while(numberOfGuesses > 0 && flag === true) {
     var answer7 = prompt('Can you guess in 6 tries or less any of my favorite foods? Go ahead and guess!').toLowerCase().trim();
-    console.log(userName + 'is asked to guess my favorite foods in 6 tries or less and responded with ' + answer7);
+    console.log(userName + ' is asked to guess my favorite foods in 6 tries or less and responded with ' + answer7);
 
     for (var i = 0; i < caraFaveFoods.length; i++ ) {
       if(answer7 === caraFaveFoods[i]) {
